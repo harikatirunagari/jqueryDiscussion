@@ -41,7 +41,7 @@ Not used
 # 5th slide
 jQuery 2.2.1  +    jQuery 1.4.1 migration plugin
 
-`````````
+````
 Deprecated Methods 2.2.1    -     Modified Methods in 2.2.1
 
 $(window).load(function() { })   -   $(window).on('load',function() { });
@@ -49,7 +49,8 @@ $(window).load(function() { })   -   $(window).on('load',function() { });
 Number($(this).attr('data-slide-to')); - Number($(this).prop('dataset')["slideTo"]);
 .size()           -                      .length
 if ($.browser.msie && parseInt($.browser.version, 10) === 7) {}    --- if(document.all && !document.querySelector) { // browser version                                                                         checking here for IE7 }
-if ($.browser.mozilla  && $(".customize-your-dbs").length > 0) {}   --- if ((typeof InstallTrigger !== 'undefined') && $(".customize-    `````````                                                                         your-dbs").length > 0) {}
+if ($.browser.mozilla  && $(".customize-your-dbs").length > 0) {}   --- if ((typeof InstallTrigger !== 'undefined') && $(".customize-                                                                       your-dbs").length > 0) {}
+````
 
 
 # 6th slide
