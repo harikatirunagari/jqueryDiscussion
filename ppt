@@ -1,0 +1,25 @@
+# Business Objectives of the project:-
+
+OSS scan suggested to upgrade all the technologies. Resultant upgraded librearies needed jquery to upgrade for supporting.
+
+
+# Architecture
+
+(use the diagram in that slide for versions)
+All the library files, custom js , custom css files and the pages are maintained in Teamsite tool which basically generates pages 
+based on content.
+
+# HCL Contribution
+
+# Technology stack & Features Delivered:
+
+Upgraded jquery by version and the varied plugins depending on it.
+
+
+# Timelines & Challenges:
+
+Achieved the task within the timelines
+
+# Takeaways from the Project:
+
+Used the latest version jquery. Exposed to upgrading and using to varied plugins like BlockUI, MaomentJs, jqueryMobile etc.
